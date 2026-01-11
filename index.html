@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven Lie Wibowo | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans leading-normal tracking-normal">
+
+    <nav class="flex items-center justify-between flex-wrap p-6 fixed w-full z-10 top-0 bg-gray-900 shadow-lg">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <span class="font-bold text-xl tracking-tight">Portfolio<span class="text-blue-500">Steven</span></span>
+        </div>
+        <div class="block lg:hidden">
+            <button class="flex items-center px-3 py-2 border rounded text-gray-200 border-gray-400 hover:text-white hover:border-white">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+            <div class="text-sm lg:flex-grow text-right">
+                <a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-blue-400 mr-4">About</a>
+                <a href="#achievment" class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-blue-400 mr-4">Achievement</a>
+                <a href="#projects" class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-blue-400 mr-4">Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-32 pb-20 px-6 max-w-5xl mx-auto text-center">
+        <h1 class="text-5xl font-bold mb-4">Halo, Saya <span class="text-blue-500">Steven Lie Wibowo</span></h1>
+        <p class="text-xl text-gray-400 mb-8 leading-relaxed">
+            Mahasiswa Ilmu Komputer IPB University yang memiliki minat pada bidang <b>Machine Learning dan Data Science</b> yang berfokus pada pengembangan model prediktif serta insight dari data. Berpengalaman dalam Deep Learning, NLP, dan image recognition.
+        </p>
+        <div class="flex justify-center gap-4">
+            <a href="https://github.com/Rinariii" class="border border-gray-500 hover:bg-gray-800 text-white font-bold py-2 px-6 rounded-full transition duration-300"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/steven-lie-wibowo/" class="border border-gray-500 hover:bg-gray-800 text-white font-bold py-2 px-6 rounded-full transition duration-300"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:stevenlie131105@gmail.com" class="border border-gray-500 hover:bg-gray-800 text-white font-bold py-2 px-6 rounded-full transition duration-300"><i class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/6285975406295" class="border border-gray-500 hover:bg-gray-800 text-white font-bold py-2 px-6 rounded-full transition duration-300"><i class="fab fa-whatsapp"></i></a>
+
+        </div>
+    </section>
+
+<section id="achievment" class="py-20 bg-gray-800">
+    <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-2 text-center text-blue-400">Certificates</h2>
+        <p class="text-gray-400 text-center mb-12">My Certificates</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="group bg-gray-700 rounded-xl overflow-hidden shadow-lg border border-gray-600 transition-all duration-300 hover:-translate-y-2">
+                <div class="relative overflow-hidden cursor-pointer" onclick="openModal('MembangunSistemMachinelearning.png')">
+                    <img 
+                        src="MembangunSistemMachinelearning.png"
+                        alt="Sertifikat ML" 
+                        class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                        <span class="text-sm text-blue-300"><i class="fas fa-search-plus mr-2"></i>Klik untuk memperbesar</span>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h3 class="text-lg font-bold text-white">Dicoding - Membangun Sistem Machine Learning</h3>
+                    <p class="text-gray-400 text-sm mb-1">Diterbitkan oleh: Dicoding Indonesia</p>
+                    <p class="text-xs text-blue-400 font-mono italic">Desember 2025</p>
+                </div>
+            </div>
+
+            <div class="group bg-gray-700 rounded-xl overflow-hidden shadow-lg border border-gray-600 transition-all duration-300 hover:-translate-y-2">
+                <div class="relative overflow-hidden cursor-pointer" onclick="openModal('Certiport.png')">
+                    <img 
+                        src="Certiport.png" 
+                        alt="Sertifikasi AI" 
+                        class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                        <span class="text-sm text-blue-300"><i class="fas fa-search-plus mr-2"></i>Klik untuk memperbesar</span>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h3 class="text-lg font-bold text-white">IT Specialist - Artificial Intelligence</h3>
+                    <p class="text-gray-400 text-sm mb-1">Diterbitkan oleh: Certiport</p>
+                    <p class="text-xs text-blue-400 font-mono italic">November 2025</p>
+                </div>
+            </div>
+
+            <div class="group bg-gray-700 rounded-xl overflow-hidden shadow-lg border border-gray-600 transition-all duration-300 hover:-translate-y-2">
+                <div class="relative overflow-hidden cursor-pointer" onclick="openModal('FundamentalDeepLearning.png')">
+                    <img 
+                        src="FundamentalDeepLearning.png" 
+                        alt="Dicoding BFDL" 
+                        class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                        <span class="text-sm text-blue-300"><i class="fas fa-search-plus mr-2"></i>Klik untuk memperbesar</span>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h3 class="text-lg font-bold text-white">Dicoding - Belajar Fundamental Deep Learning</h3>
+                    <p class="text-gray-400 text-sm mb-1">Diterbitkan oleh: Dicoding Indonesia</p>
+                    <p class="text-xs text-blue-400 font-mono italic">November 2025</p>
+                </div>
+            </div>            
+
+            <div class="group bg-gray-700 rounded-xl overflow-hidden shadow-lg border border-gray-600 transition-all duration-300 hover:-translate-y-2">
+                <div class="relative overflow-hidden cursor-pointer" onclick="openModal('MachineLearningPemula.png')">
+                    <img 
+                        src="MachineLearningPemula.png" 
+                        alt="Dicoding BMLP" 
+                        class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                        <span class="text-sm text-blue-300"><i class="fas fa-search-plus mr-2"></i>Klik untuk memperbesar</span>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h3 class="text-lg font-bold text-white">Dicoding - Belajar Machine Learning Pemula</h3>
+                    <p class="text-gray-400 text-sm mb-1">Diterbitkan oleh: Dicoding Indonesia</p>
+                    <p class="text-xs text-blue-400 font-mono italic">Oktober 2025</p>
+                </div>
+            </div>    
+
+            <div class="group bg-gray-700 rounded-xl overflow-hidden shadow-lg border border-gray-600 transition-all duration-300 hover:-translate-y-2">
+                <div class="relative overflow-hidden cursor-pointer" onclick="openModal('BNSP.png')">
+                    <img 
+                        src="BNSP.png" 
+                        alt="Sertifikasi Database Programmer" 
+                        class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                        <span class="text-sm text-blue-300"><i class="fas fa-search-plus mr-2"></i>Klik untuk memperbesar</span>
+                    </div>
+                </div>
+                <div class="p-5">
+                    <h3 class="text-lg font-bold text-white">BNSP - Database Programmer</h3>
+                    <p class="text-gray-400 text-sm mb-1">Diterbitkan oleh: Badan Sertifikasi Nasional Indonesia</p>
+                    <p class="text-xs text-blue-400 font-mono italic">April 2025</p>
+                </div>
+            </div>
+            
+            </div> 
+        </div>
+     </section>
+
+
+    <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center text-blue-400">Featured Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="bg-gray-800 rounded-xl overflow-hidden shadow-xl border border-gray-700">
+                <div class="h-48 bg-gray-600 flex items-center justify-center">
+                    <img 
+                        src="NN.png" 
+                        alt="NN" 
+                        class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Simple Neural Network using Numpy</h3>
+                    <p class="text-gray-400 text-sm mb-4">Model neural network menggunakan library NumPy untuk memprediksi soil nilai mosture dengan skor R2 93%.</p>
+                    <div class="flex gap-2 mb-4">
+                        <span class="text-xs bg-blue-900 text-blue-300 px-2 py-1 rounded">Python</span>
+                        <span class="text-xs bg-green-900 text-green-300 px-2 py-1 rounded">Machine Learning</span>
+                    </div>
+                    <a href="https://github.com/Rinariii/PBL-AI-NeuralNetowrk" class="text-blue-400 hover:underline text-sm font-semibold">Lihat Repo GitHub →</a>
+                </div>
+            </div>
+
+            <div class="bg-gray-800 rounded-xl overflow-hidden shadow-xl border border-gray-700">
+                <div class="h-48 bg-gray-600 flex items-center justify-center">
+                    <img 
+                        src="Summarization.png" 
+                        alt="Sum" 
+                        class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Audio transcribe and summarization</h3>
+                    <p class="text-gray-400 text-sm mb-4">Audio to text menggunakan whisper dan membuat summarization menggunakan text rank, transformers dan cosine similarity</p>
+                    <div class="flex gap-2 mb-4">
+                        <span class="text-xs bg-purple-900 text-purple-300 px-2 py-1 rounded">LLM</span>
+                        <span class="text-xs bg-yellow-900 text-yellow-300 px-2 py-1 rounded">Python</span>
+                    </div>
+                    <a href="https://github.com/Rinariii/Audio-Summarize-With-TextRank" class="text-blue-400 hover:underline text-sm font-semibold">Lihat Repo GitHub →</a>
+                </div>
+            </div>
+
+
+            <div class="bg-gray-800 rounded-xl overflow-hidden shadow-xl border border-gray-700">
+                <div class="h-48 bg-gray-600 flex items-center justify-center">
+                    <img 
+                        src="grab.png" 
+                        alt="Sum" 
+                        class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Sentiment Analysis Grab</h3>
+                    <p class="text-gray-400 text-sm mb-4">Analisis sentimen ulasan pengguna aplikasi Grab dari Google Play Store menggunakan SVM dan Random Forest dengan representasi teks TF-IDF dan Word2Vec, menghasilkan akurasi 88–89% dalam klasifikasi sentimen pengguna.</p>
+                    <div class="flex gap-2 mb-4">
+                        <span class="text-xs bg-orange-900 text-purple-300 px-2 py-1 rounded">Scrapping Data</span>
+                        <span class="text-xs bg-yellow-900 text-yellow-300 px-2 py-1 rounded">Python</span>
+                        <span class="text-xs bg-purple-900 text-purple-300 px-2 py-1 rounded">LLM</span>
+
+                    </div>
+                    <a href="https://github.com/Rinariii/sentiment-analysis-dicoding-grab" class="text-blue-400 hover:underline text-sm font-semibold">Lihat Repo GitHub →</a>
+                </div>
+            </div>
+
+            <div class="bg-gray-800 rounded-xl overflow-hidden shadow-xl border border-gray-700">
+                <div class="h-48 bg-gray-600 flex items-center justify-center">
+                    <img 
+                        src="flowr.png" 
+                        alt="Sum" 
+                        class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Flower image classification using CNN</h3>
+                    <p class="text-gray-400 text-sm mb-4">Model deep learning untuk klasifikasi 5 jenis bunga menggunakan arsitektur Convolutional Neural Network (CNN) kustom yang dibangun dengan TensorFlow/Keras, dirancang untuk mengekstraksi fitur visual dan meningkatkan akurasi klasifikasi citra.</p>
+                    <div class="flex gap-2 mb-4">
+                    <span class="text-xs bg-blue-900 text-blue-300 px-2 py-1 rounded">Deep Learning</span>
+                    <span class="text-xs bg-green-900 text-green-300 px-2 py-1 rounded">CNN</span>
+                    <span class="text-xs bg-yellow-900 text-yellow-300 px-2 py-1 rounded">TensorFlow</span>
+                    </div>
+                    <a href="https://github.com/Rinariii/flower-image-classification" class="text-blue-400 hover:underline text-sm font-semibold">Lihat Repo GitHub →</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer id="contact" class="py-10 bg-gray-900 border-t border-gray-800 text-center">
+        <p class="text-gray-500 mb-4">&copy; 2026 Steven Lie Wibowo.</p>
+        <div class="flex justify-center space-x-6 text-2xl">
+            <a href="#" class="hover:text-blue-400"><i class="fab fa-github"></i></a>
+            <a href="#" class="hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="hover:text-blue-400"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <div id="imageModal" class="fixed inset-0 z-50 hidden bg-black bg-opacity-90 flex items-center justify-center p-4">
+        <button onclick="closeModal()" class="absolute top-5 right-5 text-white text-4xl hover:text-gray-300">&times;</button>
+        <img id="modalImg" src="" class="max-w-full max-h-full rounded-lg shadow-2xl transition-transform duration-300">
+    </div>
+
+    <script>
+        function openModal(src) {
+            document.getElementById('modalImg').src = src;
+            document.getElementById('imageModal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        document.getElementById('imageModal').addEventListener('click', function(e) {
+            if (e.target !== document.getElementById('modalImg')) {
+                closeModal();
+            }
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === "Escape") closeModal();
+        });
+    </script>
+</body>
+</html>
